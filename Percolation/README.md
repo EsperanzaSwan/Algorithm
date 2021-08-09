@@ -7,7 +7,7 @@ Researchers are interested in find outing the percolation threshhold, namely if 
 # Download and run the app
 ``` bash
 git clone https://github.com/EsperanzaSwan/Algorithm.git
-cd Percolation
+cd Algorithm/Percolation
 javac -cp algs4.jar PercolationStats.java Percolation.java
 java -cp algs4.jar: PercolationStats 100 50 # if you are using mac. Windows: java -cp algs4.jar; PercolationStats 100 50
 ```
