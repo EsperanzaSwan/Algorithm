@@ -4,7 +4,7 @@
  * PercolationStats runs Monte Carlo simulation to estimate the perocalation threshold
  * on a n * n 2D system. It takes two commend-line argument: n and trials. Trials is number
  * of simulation performed. During each trial, it creates a Percolation object with all
- * sites closed, then randomly open sites till the system percolates. The probability stores
+ * sites closed, then randomly open sites till the system percolates. probability stores
  * percolation threshold value. Then we obtain the mean, stddev and 95% confidence interval using
  * methods from StdStats
  *********************************************************************************************/
