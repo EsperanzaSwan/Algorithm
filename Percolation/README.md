@@ -21,3 +21,11 @@ I scored 96 for the assignment. The project passed all auto-grader unit tests fo
 
 ![Score Report](https://github.com/M-Theresa/Algorithm/blob/fe62ee739b1d5449576797bc2a20793468fa5653/Percolation/Autograder%20report.png)
 
+# For Fun
+```PercolationVisualizer.java``` is provided in the course package. It animates the results of opening sites. You can run using the following command
+```bash
+javac -cp algs4.jar PercolationStats.java Percolation.java PercolationVisualizer.java
+java -cp algs4.jar: PercolationVisualizer input.txt
+```
+You can also try ```eagle25.txt``` and ```jerry47.txt``` to get the following output. Hava fun!
+
