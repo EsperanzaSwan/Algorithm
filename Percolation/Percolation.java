@@ -13,7 +13,7 @@ import edu.princeton.cs.algs4.WeightedQuickUnionUF;
 
 public class Percolation {
     private int[] grids; // grids of n * n to map the sites
-    private final int size; // size of the grids along one axis. Size is set equal to n
+    private final int size; // size of the grids along one axis. size is set equal to n
     private int numOfOpenSites; // the number of open sites
     private WeightedQuickUnionUF myUF; // union find object to track the system connectivity
     private WeightedQuickUnionUF backwashPreventer; // a copy of union find object to prevent backwash
@@ -29,7 +29,7 @@ public class Percolation {
         size = n;
         numOfOpenSites = 0;
         // create union find object and add one top and one bottom virtual site to the end
-        // virtual top: n^2 virtual bottom: n^ + 1
+        // virtual top index: n^2 virtual bottom index: n^2 + 1
         myUF = new WeightedQuickUnionUF((n * n) + 2);
         int virtureTop = n * n;
         int virtureBottom = n * n + 1;
@@ -58,6 +58,7 @@ public class Percolation {
         this.checkBounds(row, col);
         // only open a site when it is not open
         if (!this.isOpen(row, col)) {
+            // convert to the index for union find
             int p = (row - 1) * size + col - 1;
             grids[p] = 1;
             numOfOpenSites++;
@@ -94,6 +95,7 @@ public class Percolation {
     // is the site open?
     public boolean isOpen(int row, int col) {
         this.checkBounds(row, col);
+        // convert to the index for union find
         int p = (row - 1) * size + col - 1;
         return grids[p] == 1;
     }
