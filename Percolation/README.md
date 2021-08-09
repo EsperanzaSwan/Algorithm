@@ -15,4 +15,6 @@ java -cp algs4.jar: PercolationStats 100 50 # if you are using mac. Windows: jav
 
 # Output 
 ```PercolationStats``` prints the results to standard outpout. The following is an example of the simulation results.  
-![Output](https://github.com/M-Theresa/Algorithm/blob/aa2dcbd6e4231eb67c8effbc5651c699a5d8c5e6/Percolation/percolation%20output.png)
+![Output](https://github.com/M-Theresa/Algorithm/blob/421869f2a8232e041491dc3faa9e7499b867cc8e/Percolation/Percolation%20Output.png)
+I scored 96 for the assignment. The project passed all auto-grader unit tests for correctness. 
+
