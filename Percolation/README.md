@@ -29,3 +29,4 @@ java -cp algs4.jar: PercolationVisualizer input.txt
 ```
 You can also try ```eagle25.txt``` and ```jerry47.txt``` to get the following output. Hava fun!
 
+![For Fun](https://github.com/M-Theresa/Algorithm/blob/56cfd2bbc49b077f84709061a092aca1ed4a16e2/Percolation/Percolation%20for%20fun.png)
