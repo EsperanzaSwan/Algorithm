@@ -9,7 +9,7 @@ Researchers are interested in find outing the percolation threshhold, namely if 
 git clone https://github.com/EsperanzaSwan/Algorithm.git
 cd Percolation
 javac -cp algs4.jar PercolationStats.java Percolation.java
-java -cp algs4.jar: PercolationStats 100 50
+java -cp algs4.jar: PercolationStats 100 50 
 ```
-``PercolationStats``` takes two parameters, first is the size n, the second is the number of trials.
+```PercolationStats``` takes two parameters, first is the size n, the second is the number of trials. Use ``` java -cp algs4.jar; PercolationStats 100 50 ``` if you are using windows
 
