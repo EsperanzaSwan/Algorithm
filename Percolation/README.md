@@ -18,5 +18,6 @@ java -cp algs4.jar: PercolationStats 100 50 # if you are using mac. Windows: jav
 ![Output](https://github.com/M-Theresa/Algorithm/blob/421869f2a8232e041491dc3faa9e7499b867cc8e/Percolation/Percolation%20Output.png)
 
 I scored 96 for the assignment. The project passed all auto-grader unit tests for correctness. 
+
 ![Score Report](https://github.com/M-Theresa/Algorithm/blob/fe62ee739b1d5449576797bc2a20793468fa5653/Percolation/Autograder%20report.png)
 
